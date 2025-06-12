@@ -1,7 +1,7 @@
-package ch6;
+package ch6.calcapp.logics;
 
 //CalcLogic.javaに計算処理を追加する
-public class CalcLogic6_2 {
+public class CalcLogic {
 
 	public static int tasu(int a, int b) {
 		return (a + b);
