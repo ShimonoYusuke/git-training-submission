@@ -1,7 +1,7 @@
 package ch8;
 
 //手続き型で作った勇者の冒険プログラム
-public class Main8_14 {
+public class Main2 {
 
 	public static void main(String[] args) {
 		int yusya_hp = 100;

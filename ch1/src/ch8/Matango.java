@@ -1,6 +1,6 @@
 package ch8;
 //お化けキノコクラスの定義
-public class Matango8_15 {
+public class Matango {
 	int hp;
 	final int LEVEL = 10;
 	char suffix;

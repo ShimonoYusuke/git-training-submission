@@ -1,7 +1,7 @@
 package ch8;
 
 //メソッド「座る」「転ぶ」「逃げる」を追加
-public class Hero8_8 {
+public class Hero1 {
 	String name;
 	int hp;
 
