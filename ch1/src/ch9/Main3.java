@@ -1,7 +1,7 @@
 package ch9;
 
 //剣を装備した勇者を生みだす
-public class Main9_4 {
+public class Main3 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ

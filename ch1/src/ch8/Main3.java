@@ -4,14 +4,8 @@ package ch8;
 public class Main3 {
 
 	public static void main(String[] args) {
-		//（以下の内容をjavaで記述していく）
-		// 勇者よ、この仮想世界に生まれよ！
-		// お化けキノコよ、この仮想世界に生まれよ！
-		// 勇者よ、戦え！
-		// お化けキノコよ、逃げろ！
-
 		// 1.勇者を生成
-		Hero1 h = new Hero1(); //勇者を生成し初期化
+		Hero h = new Hero(); //勇者を生成し初期化
 		// 2.フィールドに初期化をセット
 		h.name = "ミナト"; // 変数hのnameに代入
 		h.hp = 100; //変数hのhpに代入

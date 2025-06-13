@@ -1,7 +1,7 @@
 package ch9;
 
 //newを使って文字列のインスタンスを生成か（非推奨）
-public class Main9_7 {
+public class Main5 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ

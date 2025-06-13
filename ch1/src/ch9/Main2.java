@@ -1,9 +1,8 @@
 package ch9;
 //2つのHero型変数を利用する
-public class Main9_2 {
+public class Main2 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 		Hero h1;
 		h1 = new Hero();
 		h1.hp = 100;

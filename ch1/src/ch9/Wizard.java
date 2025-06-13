@@ -1,7 +1,7 @@
 package ch9;
 
 //回復魔法を使えるWizardクラス
-public class Wizard9_5 {
+public class Wizard {
 	String name;
 	int hp;
 

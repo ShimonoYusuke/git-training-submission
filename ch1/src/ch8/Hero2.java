@@ -1,8 +1,22 @@
 package ch8;
-//Hero型の変数を宣言（宣言のみ抜粋）
 
+//Heroクラスをjavaのコードで表したもの
 public class Hero2 {
-	
-	Hero1 h;
-	
+	String name;
+	int hp;
+
+	public void attack() {
+	}
+
+	public void sleep() {
+	}
+
+	public void sit(int sec) {
+	}
+
+	public void slip() {
+	}
+
+	public void run() {
+	}
 }

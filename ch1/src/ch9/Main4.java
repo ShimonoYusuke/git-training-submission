@@ -1,7 +1,7 @@
 package ch9;
 
 //勇者と魔法使いを生み出す
-public class Main9_6 {
+public class Main4 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ

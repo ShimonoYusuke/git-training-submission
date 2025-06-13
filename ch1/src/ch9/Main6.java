@@ -1,7 +1,7 @@
 package ch9;
 
 //コントラクタが定義されたHeroを生み出す
-public class Main9_9 {
+public class Main6 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
