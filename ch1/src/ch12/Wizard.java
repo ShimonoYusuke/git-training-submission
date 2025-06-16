@@ -1,7 +1,7 @@
 package ch12;
 
 //Characterを継承して定義されたWizardクラス
-public class Wizard extends Character {
+public class Wizard extends Character implements Life {
 	int mp;
 
 	public void attack(Matango m) {

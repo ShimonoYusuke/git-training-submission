@@ -1,7 +1,7 @@
 package ch13;
 
 //アクセス制御されていないHeroクラス
-public class Hero1 {
+public class Hero {
 	int hp;
 	String name;
 	Sword sword;
@@ -32,6 +32,11 @@ public class Hero1 {
 	
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public String name() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
 	}
 
 	

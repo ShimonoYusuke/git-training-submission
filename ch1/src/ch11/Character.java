@@ -1,7 +1,7 @@
 package ch11;
 
 //Characterクラスを作成（未完成）
-public abstract class Character {
+public class Character {
 	String name;
 	int hp;
 
@@ -11,6 +11,10 @@ public abstract class Character {
 	}
 
 	//戦う
-	public abstract void attack(Matango m);
+	public void attack(Matango m) {
+		System.out.println(this.name + "の攻撃！");
+		m.hp -= ??;
+		System.out.println("敵に？？ポイントのダメージをあたえた！");
+	}
 	
 }

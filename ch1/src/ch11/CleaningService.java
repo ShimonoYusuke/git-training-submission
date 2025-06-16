@@ -2,9 +2,9 @@ package ch11;
 
 //CleaningServiceインターフェース
 public interface CleaningService {
-	shirt washShirt(Shirt s);
+	Shirt washShirt(Shirt s);
 
-	towl washtowl(Towl t);
+	Towl washTowl(Towl t);
 
 	Coat washCoat(Coat c);
 
