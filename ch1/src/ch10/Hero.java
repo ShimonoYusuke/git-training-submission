@@ -1,7 +1,5 @@
 package ch10;
 
-import ch8.Matango;
-
 //「戦う」と「逃げる」しかできないHeroクラス
 public class Hero {
 	String name = "ミナト";
@@ -13,9 +11,17 @@ public class Hero {
 		m.hp -= 5;
 		System.out.println("5ポイントのダメージをあたえた！");
 	}
+	public final void slip() {
+		this.hp -= 5;
+		System.out.println(this.name + "は転んだ！");
+		System.out.println("5のダメージ");
+	}
 
 	//逃げる
 	public void run() {
 		System.out.println(this.name + "は逃げ出した！");
+	}
+	public Hero() {
+		System.out.println("Heroのコンストラクタが動作");
 	}
 }
