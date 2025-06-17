@@ -9,7 +9,7 @@ public class Main15_14 {
 
 	public static void main(String[] args) {
 		//Instantの生成
-		Instant i1 = Instant.now();
+		Instant i1 = Instant.now();         //現在日時を取得
 
 		//Instantとlong値との相互変換
 		Instant i2 = Instant.ofEpochMilli(1600705425827L);
@@ -27,6 +27,7 @@ public class Main15_14 {
 		System.out.println("東京:" + z2.getYear() + z2.getMonth() + z2.getDayOfMonth());
 		System.out.println("ロンドン:" + z3.getYear() + z3.getMonth() + z3.getDayOfMonth());
 		if (z2.isEqual(z3)) {
+			//同じ瞬間の判定には、equals()ではなくisEqualを使う
 			System.out.println("これらは同じ瞬間を指しています");
 		}
 	}
